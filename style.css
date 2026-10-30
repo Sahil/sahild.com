@@ -48,3 +48,24 @@ main {
     gap: 0.75rem;
   }
 }
+
+.topline {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.topline a {
+  display: flex;
+  color: #555;
+}
+
+.topline a:hover {
+  color: #111;
+}
