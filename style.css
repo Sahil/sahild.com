@@ -43,13 +43,35 @@ main {
 
 .block p a {
   color: inherit;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .block p a:hover {
   color: #111;
+}
+
+.block p a .e {
+  display: none;
+}
+
+.block p a:hover .w {
+  display: none;
+}
+
+.block p a:hover .e {
+  display: inline-block;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.block p a:hover .e.float {
+  animation: float 1.2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
 }
 
 @media (max-width: 640px) {
