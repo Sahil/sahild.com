@@ -63,7 +63,7 @@ main {
   top: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  font-size: 1.1rem;
+  font-size: 5.5rem;
   line-height: 1;
   transition: opacity 0.25s ease;
   pointer-events: none;
@@ -78,13 +78,13 @@ main {
 }
 
 .block p a:hover .e.float {
-  animation: float 1.8s ease-in-out infinite;
+  animation: float 1.6s ease-in-out infinite;
   will-change: transform;
 }
 
 @keyframes float {
   0%, 100% { transform: translate(-50%, -50%); }
-  50% { transform: translate(-50%, calc(-50% - 5px)); }
+  50% { transform: translate(-50%, calc(-50% - 10px)); }
 }
 
 @media (max-width: 640px) {
