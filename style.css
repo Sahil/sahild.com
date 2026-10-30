@@ -41,6 +41,17 @@ main {
   color: #555;
 }
 
+.block p a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.block p a:hover {
+  color: #111;
+}
+
 @media (max-width: 640px) {
   .block {
     flex-direction: column;
