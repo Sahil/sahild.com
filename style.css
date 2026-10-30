@@ -75,9 +75,6 @@ main {
 
 .block p a:hover .e {
   opacity: 1;
-}
-
-.block p a:hover .e.float {
   animation: float 1.6s ease-in-out infinite;
   will-change: transform;
 }
