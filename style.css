@@ -63,7 +63,7 @@ main {
   top: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  font-size: 5.5rem;
+  font-size: 3.3rem;
   line-height: 1;
   transition: opacity 0.25s ease;
   pointer-events: none;
